@@ -1,0 +1,42 @@
+{
+  "name": "dating-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpm1985/dating-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpm1985/dating-website/issues"
+  },
+  "homepage": "https://github.com/rpm1985/dating-website#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.26.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "googleapis": "^84.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.2",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.6.3",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "nodemon": "^2.0.12"
+  }
+}
